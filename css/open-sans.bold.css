@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../font/Bold/OpenSans-Bold.eot');
+  src: url('../font/Bold/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../font/Bold/OpenSans-Bold.woff') format('woff'),
+       url('../font/Bold/OpenSans-Bold.ttf') format('truetype'),
+       url('../font/Bold/OpenSans-Bold.svg#OpenSansBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
