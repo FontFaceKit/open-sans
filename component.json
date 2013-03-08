@@ -1,5 +1,5 @@
 {
 	"name":    "open-sans-fontface",
-	"version": "1.0.0",
-    "main":    "./css/open-sans.css"
+	"version": "1.0.2",
+	"main":    "./css/open-sans.css"
 }
