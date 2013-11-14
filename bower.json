@@ -1,0 +1,21 @@
+{
+  "name": "open-sans-typeface",
+  "version": "1.0.4",
+  "main": "./css/open-sans.css",
+  "homepage": "https://github.com/gateprotect/open-sans",
+  "authors": [
+    "Martin Domke <martin.domke@gateprotect.com>"
+  ],
+  "description": "The Open Sans typeface",
+  "keywords": [
+    "font"
+  ],
+  "license": "Apache License version 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
