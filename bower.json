@@ -1,7 +1,7 @@
 {
   "name": "open-sans-fontface",
   "version": "1.0.4",
-  "main": "./css/open-sans.css",
+  "main": "./open-sans.css",
   "homepage": "https://github.com/FontFaceKit/open-sans",
   "authors": [
     "Gustavo Henke <gustavo@injoin.com.br>",
