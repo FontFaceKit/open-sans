@@ -1,0 +1,12 @@
+/* BEGIN Extrabold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('#{$OpenSansPath}/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot?v=#{$OpenSansVersion}');
+  src: url('#{$OpenSansPath}/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot?#iefix&v=#{$OpenSansVersion}') format('embedded-opentype'),
+       url('#{$OpenSansPath}/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff?v=#{$OpenSansVersion}') format('woff'),
+       url('#{$OpenSansPath}/ExtraBoldItalic/OpenSans-ExtraBoldItalic.ttf?v=#{$OpenSansVersion}') format('truetype'),
+       url('#{$OpenSansPath}/ExtraBoldItalic/OpenSans-ExtraBoldItalic.svg?v=#{$OpenSansVersion}#OpenSansExtraboldItalic') format('svg');
+  font-weight: 800;
+  font-style: italic;
+}
+/* END Extrabold Italic */

@@ -1,0 +1,12 @@
+/* BEGIN Semibold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('#{$OpenSansPath}/SemiboldItalic/OpenSans-SemiboldItalic.eot?v=#{$OpenSansVersion}');
+  src: url('#{$OpenSansPath}/SemiboldItalic/OpenSans-SemiboldItalic.eot?#iefix&v=#{$OpenSansVersion}') format('embedded-opentype'),
+       url('#{$OpenSansPath}/SemiboldItalic/OpenSans-SemiboldItalic.woff?v=#{$OpenSansVersion}') format('woff'),
+       url('#{$OpenSansPath}/SemiboldItalic/OpenSans-SemiboldItalic.ttf?v=#{$OpenSansVersion}') format('truetype'),
+       url('#{$OpenSansPath}/SemiboldItalic/OpenSans-SemiboldItalic.svg?v=#{$OpenSansVersion}#OpenSansSemiboldItalic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+/* END Semibold Italic */

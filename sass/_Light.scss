@@ -1,0 +1,12 @@
+/* BEGIN Light */
+@font-face {
+  font-family: 'Open Sans';
+  src:  url('#{$OpenSansPath}/Light/OpenSans-Light.eot?v=#{$OpenSansVersion}');
+  src:  url('#{$OpenSansPath}/Light/OpenSans-Light.eot?#iefix&v=#{$OpenSansVersion}') format('embedded-opentype'),
+        url('#{$OpenSansPath}/Light/OpenSans-Light.woff?v=#{$OpenSansVersion}') format('woff'),
+        url('#{$OpenSansPath}/Light/OpenSans-Light.ttf?v=#{$OpenSansVersion}') format('truetype'),
+        url('#{$OpenSansPath}/Light/OpenSans-Light.svg?v=#{$OpenSansVersion}#OpenSansLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+/* END Light */
