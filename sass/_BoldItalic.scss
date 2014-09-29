@@ -1,0 +1,12 @@
+/* BEGIN Bold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('#{$OpenSansPath}/BoldItalic/OpenSans-BoldItalic.eot?v=#{$OpenSansVersion}');
+  src: url('#{$OpenSansPath}/BoldItalic/OpenSans-BoldItalic.eot?#iefix&v=#{$OpenSansVersion}') format('embedded-opentype'),
+       url('#{$OpenSansPath}/BoldItalic/OpenSans-BoldItalic.woff?v=#{$OpenSansVersion}') format('woff'),
+       url('#{$OpenSansPath}/BoldItalic/OpenSans-BoldItalic.ttf?v=#{$OpenSansVersion}') format('truetype'),
+       url('#{$OpenSansPath}/BoldItalic/OpenSans-BoldItalic.svg?v=#{$OpenSansVersion}#OpenSansBoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+/* END Bold Italic */

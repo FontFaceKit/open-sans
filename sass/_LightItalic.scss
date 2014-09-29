@@ -1,0 +1,12 @@
+/* BEGIN Light Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src:  url('#{$OpenSansPath}/Light/OpenSans-LightItalic.eot?v=#{$OpenSansVersion}');
+  src:  url('#{$OpenSansPath}/Light/OpenSans-LightItalic.eot?#iefix&v=#{$OpenSansVersion}') format('embedded-opentype'),
+        url('#{$OpenSansPath}/Light/OpenSans-LightItalic.woff?v=#{$OpenSansVersion}') format('woff'),
+        url('#{$OpenSansPath}/Light/OpenSans-LightItalic.ttf?v=#{$OpenSansVersion}') format('truetype'),
+        url('#{$OpenSansPath}/Light/OpenSans-LightItalic.svg?v=#{$OpenSansVersion}#OpenSansLightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+/* END Light Italic */

@@ -1,0 +1,12 @@
+/* BEGIN Semibold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('#{$OpenSansPath}/Semibold/OpenSans-Semibold.eot?v=#{$OpenSansVersion}');
+  src: url('#{$OpenSansPath}/Semibold/OpenSans-Semibold.eot?#iefix&v=#{$OpenSansVersion}') format('embedded-opentype'),
+       url('#{$OpenSansPath}/Semibold/OpenSans-Semibold.woff?v=#{$OpenSansVersion}') format('woff'),
+       url('#{$OpenSansPath}/Semibold/OpenSans-Semibold.ttf?v=#{$OpenSansVersion}') format('truetype'),
+       url('#{$OpenSansPath}/Semibold/OpenSans-Semibold.svg?v=#{$OpenSansVersion}#OpenSansSemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+/* END Semibold */
