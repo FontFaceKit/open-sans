@@ -1,11 +1,7 @@
 /* BEGIN Extrabold */
 @font-face {
   font-family: 'Open Sans';
-  src: url('#{$OpenSansPath}/ExtraBold/OpenSans-ExtraBold.eot?v=#{$OpenSansVersion}');
-  src: url('#{$OpenSansPath}/ExtraBold/OpenSans-ExtraBold.eot?#iefix&v=#{$OpenSansVersion}') format('embedded-opentype'),
-       url('#{$OpenSansPath}/ExtraBold/OpenSans-ExtraBold.woff?v=#{$OpenSansVersion}') format('woff'),
-       url('#{$OpenSansPath}/ExtraBold/OpenSans-ExtraBold.ttf?v=#{$OpenSansVersion}') format('truetype'),
-       url('#{$OpenSansPath}/ExtraBold/OpenSans-ExtraBold.svg?v=#{$OpenSansVersion}#OpenSansExtrabold') format('svg');
+  @include fontdef($OpenSansPath, $OpenSansVersion, "ExtraBold");
   font-weight: 800;
   font-style: normal;
 }
