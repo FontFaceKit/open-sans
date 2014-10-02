@@ -1,11 +1,7 @@
 /* BEGIN Regular */
 @font-face {
   font-family: 'Open Sans';
-  src:  url('#{$OpenSansPath}/Regular/OpenSans-Regular.eot?v=#{$OpenSansVersion}');
-  src:  url('#{$OpenSansPath}/Regular/OpenSans-Regular.eot?#iefix&v=#{$OpenSansVersion}') format('embedded-opentype'),
-        url('#{$OpenSansPath}/Regular/OpenSans-Regular.woff?v=#{$OpenSansVersion}') format('woff'),
-        url('#{$OpenSansPath}/Regular/OpenSans-Regular.ttf?v=#{$OpenSansVersion}') format('truetype'),
-        url('#{$OpenSansPath}/Regular/OpenSans-Regular.svg?v=#{$OpenSansVersion}#OpenSansRegular') format('svg');
+  @include fontdef($OpenSansPath, $OpenSansVersion, "Regular");
   font-weight: normal;
   font-style: normal;
 }
