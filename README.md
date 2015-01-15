@@ -1,6 +1,6 @@
 # Open Sans @font-face kit
 
-I split the SASS file, so the developer can decide which fonts and styles he really needs.
+I split the SASS file, so the developer can decide which fonts and styles she or he really needs.
 
 Installable via [Bower](http://twitter.github.com/bower/):
 ```
