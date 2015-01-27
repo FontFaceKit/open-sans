@@ -1,6 +1,6 @@
 {
   "name": "open-sans-fontface",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "./open-sans.css",
   "homepage": "https://github.com/FontFaceKit/open-sans",
   "authors": [
