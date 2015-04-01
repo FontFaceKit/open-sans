@@ -11,6 +11,10 @@
   "keywords": [
     "font"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FontFaceKit/open-sans"
+  },
   "license": "Apache License version 2.0",
   "ignore": [
     "**/.*",
