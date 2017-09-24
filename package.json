@@ -14,9 +14,9 @@
   ],
   "scripts": {
     "prettysass": "prettier --write --print-width 120 --tab-width 4 --use-tabs --single-quote sass/*.scss",
-    "sass": "node-sass --output-style expanded --precision 6 titilliumweb.scss titilliumweb.expanded.css",
-    "sass_autoprefixer": "postcss titilliumweb.expanded.css -u autoprefixer -o titilliumweb.prefixed.css --no-map",
-    "sass_minify": "cleancss --level 1 --output titilliumweb.css titilliumweb.prefixed.css"
+    "sass": "node-sass --output-style expanded --precision 6 open-sans.scss open-sans.expanded.css",
+    "sass_autoprefixer": "postcss open-sans.expanded.css -u autoprefixer -o open-sans.prefixed.css --no-map",
+    "sass_minify": "cleancss --level 1 --output open-sans.css open-sans.prefixed.css"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,7 @@
     "tests"
   ],
   "bugs": {
-    "url": "https://github.com/FontFaceKit/titilliumweb/issues"
+    "url": "https://github.com/FontFaceKit/open-sans/issues"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.4",
