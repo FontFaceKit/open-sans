@@ -34,11 +34,11 @@
     "url": "https://github.com/FontFaceKit/open-sans/issues"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.4",
-    "clean-css-cli": "^4.1.10",
-    "node-sass": "^4.5.3",
-    "postcss-cli": "^4.1.1",
-    "prettier": "^1.7.0"
+    "autoprefixer": "^8.5.1",
+    "clean-css-cli": "^4.1.11",
+    "node-sass": "^4.9.0",
+    "postcss-cli": "^5.0.0",
+    "prettier": "^1.12.1"
   },
   "browserslist": [
     "Chrome >= 35",
