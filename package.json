@@ -36,7 +36,7 @@
   "devDependencies": {
     "autoprefixer": "^8.5.1",
     "clean-css-cli": "^4.1.11",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.9.1",
     "postcss-cli": "^5.0.0",
     "prettier": "^1.12.1"
   },
