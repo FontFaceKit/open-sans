@@ -13,7 +13,7 @@
     "font"
   ],
   "scripts": {
-    "prettysass": "prettier --write --print-width 120 --tab-width 4 --use-tabs --single-quote sass/*.scss",
+    "prettysass": "prettier --write --print-width 120 --tab-width 4 --use-tabs sass/*.scss",
     "sass": "node-sass --output-style expanded --precision 6 open-sans.scss open-sans.expanded.css",
     "sass_autoprefixer": "postcss open-sans.expanded.css -u autoprefixer -o open-sans.prefixed.css --no-map",
     "sass_minify": "cleancss --level 1 --output open-sans.css open-sans.prefixed.css"
